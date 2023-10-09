@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    margin: auto;
+    width: 65%;
+    background-color:rgb(35, 37, 37);
+}
+main{
+    background-color: white;
+    display: flex;
+    height: 135vh;
+}
+header{
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(140, 197, 178);
+    color: rgb(75, 74, 74);
+    font-size: 1.5em;
+}
+.container-perfil{
+    width: 30%;
+    padding: 20px;
+    background-color: gray;
+}
+.container-info{
+    width: 60%;
+    padding: 20px;
+}
+.container-perfil > img{
+    width:200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin: 50px 0px 50px 100px;
+}
+.link-social > li{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+.link-social > li > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.4em;
+}
+.link-social > li :hover{
+    color: rgb(30, 29, 29);
+}
+
+.container-perfil > h2{
+    margin-top: 30px;
+    border-top: 2px solid rgb(90, 85, 85);
+    color: rgb(31, 30, 30);
+    padding: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.link-social-2 > li{
+    font-size: 1.1em;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    list-style: none;
+    text-align: justify;
+    font-weight: bold;
+}
+.container-perfil > p{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.2em;
+
+}
+.container-info{
+    padding: 50px;
+}
+.container-info > article{
+    margin-top: 50px;
+}
+.container-info > article > h2{
+    margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.container-info > article > p{
+    font-size: 1.3em;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}
+.container-info > article > ul > li{
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 1.2em;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+}   
