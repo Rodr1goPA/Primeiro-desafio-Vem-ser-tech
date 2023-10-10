@@ -84,6 +84,8 @@ header{
     margin-bottom: 20px;
     font-size: 2em;
     font-weight: bolder;
+    background-color: gainsboro;
+    padding: 5px;
 }
 .container-info > article > p{
     font-size: 1.3em;
